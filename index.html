@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ventadeproducto</title>
+    <link rel="stylesheet" href="./inicio.css">
+</head>
+<body>
+    <h1>gracias por visitar la pagina pero seguimos trabajando, por lo mientras dejo este detalle echo por michel un laik no?</h1>
+    <img src="https://cdn.pixabay.com/animation/2022/11/13/04/07/04-07-22-38_512.gif" alt="Un pequeño regalo para ti" width="200" height="400">
+    <a href="./ventadeproc.html">
+        <button id="reproducir-musica">picale w</button>
+    </a>
+    <audio id="musica" src="./Sweet Dreams.mp3" type="audio/mp3"></audio>
+
+    <script>
+        const boton = document.getElementById('reproducir-musica');
+        const musica = document.getElementById('musica');
+
+        boton.addEventListener('click', function() {
+            musica.play();
+        });
+    </script>
+</body>
+</html>
